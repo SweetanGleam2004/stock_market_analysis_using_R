@@ -1,1 +1,5 @@
-# stock_market_analysis_using_R
+Real-Time Stock Market Analysis Dashboard
+
+
+
+
