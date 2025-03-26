@@ -44,7 +44,6 @@ server <- function(input, output) {
     df <- data.frame(Date = index(stock_data()), coredata(stock_data()))
     df <- df %>% select(Date, contains("Adjusted")) %>% tail(input$days)
     colnames(df)[2] <- "Price"
-    
     datatable(df)
   })
 }
